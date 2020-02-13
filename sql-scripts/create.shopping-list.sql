@@ -12,6 +12,4 @@ CREATE TABLE IF NOT EXISTS shopping_list (
     category grocery NOT NULL,
     checked BOOLEAN DEFAULT false,
     date_added TIMESTAMP DEFAULT now() NOT NULL
-   
-   
 ); 
