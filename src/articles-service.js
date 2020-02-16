@@ -1,9 +1,7 @@
+// const ArticleService = {
+//   getAllArticles(knex) {
+//     return knex.select('*').from('blogful_articles');
+//   }
+// };
 
-
-const ArticleService = {
-  getAllArticles(knex) {
-    return knex.select('*').from('blogful_articles');
-  }
-};
-
-module.exports = ArticleService;
+// module.exports = ArticleService;
